@@ -1,0 +1,45 @@
+
+body {
+    background : rgb(105, 231, 240);
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    color: purple;          
+    font-size: 32px;          
+    text-align: center;       
+    margin-top: 40px;         
+    font-family: sans-serif;  
+}
+header{
+    width: 100%;
+    top: 0;
+    padding: 5px;
+    text-align: center;
+    background: #121313;
+    color: orange;
+    font-size: 30px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #58df46;
+    color: #cc590c;
+    text-align: center;
+    font-style: normal;
+}    
+
+#judulForm {
+    color: black;
+}
+
+.kotak-input {
+    width: 250px;
+    padding: 5px;
+    text-align: left;
+    margin: 0px;
+    
+}
