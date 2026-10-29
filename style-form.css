@@ -1,0 +1,73 @@
+/* Pengaturan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Kotak pembungkus form agar berada di tengah dan terlihat rapi */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul Form menggunakan ID */
+#judulForm {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Pengelompokan tiap baris input */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label teks di atas input */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Styling untuk kotak input menggunakan Class */
+.kotak-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak membuat input melebihi lebar 100% */
+    font-size: 14px;
+}
+
+/* Efek saat kotak input diklik/fokus */
+.kotak-input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+/* Tombol Kirim */
+.btn-kirim {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Efek saat kursor berada di atas tombol */
+.btn-kirim:hover {
+    background-color: rgb(61, 181, 236);
+}

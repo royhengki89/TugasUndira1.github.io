@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri</title>
+    <!-- Memanggil CSS khusus form -->
+    <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <!-- Judul Form -->
+        <h1 id="judulForm">Form Data Diri</h1>
+
+        <!-- FORM dengan 5 kolom ke bawah -->
+        <form action="action.php">
+            
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" class="kotak-input" placeholder="Masukkan nama lengkap">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="kotak-input" placeholder="Masukkan email">
+            </div>
+
+            <div class="form-group">
+                <label for="telepon">Nomor Telepon:</label>
+                <input type="tel" id="telepon" class="kotak-input" placeholder="Masukkan nomor telepon">
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" class="kotak-input" placeholder="Masukkan alamat">
+            </div>
+
+            <div class="form-group">
+                <label for="jurusan">Jurusan:</label>
+                <input type="text" id="jurusan" class="kotak-input" placeholder="Masukkan jurusan">
+            </div>
+
+            <input type="submit" value="Kirim" class="btn-kirim">
+
+        </form>
+    </div>
+
+</body>
+</html>
