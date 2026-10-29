@@ -71,3 +71,24 @@ label {
 .btn-kirim:hover {
     background-color: rgb(61, 181, 236);
 }
+* Tombol Kembali */
+.btn-kembali {
+    display: block;
+    width: 100%;
+    background-color: yellowgreen; /* Warna abu-abu agar berbeda dari tombol kirim */
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Menghilangkan garis bawah bawaan link */
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+/* Efek saat kursor diarahkan ke tombol kembali */
+.btn-kembali:hover {
+    background-color: #616161;
+}
+
