@@ -71,7 +71,7 @@ label {
 .btn-kirim:hover {
     background-color: rgb(61, 181, 236);
 }
-* Tombol Kembali */
+/* Tombol Kembali */
 .btn-kembali {
     display: block;
     width: 100%;
